@@ -9,7 +9,7 @@ import UIKit
 
 class MovieTableViewCell: UITableViewCell {
 
-//    @IBOutlet weak var indicatorLoading: UIActivityIndicatorView!
+    @IBOutlet weak var indicatorLoading: UIActivityIndicatorView!
     @IBOutlet weak var movieImage: UIImageView!
     @IBOutlet weak var movieTitle: UILabel!
     

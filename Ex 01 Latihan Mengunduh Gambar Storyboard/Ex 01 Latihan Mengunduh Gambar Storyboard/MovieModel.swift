@@ -6,11 +6,19 @@
 //
 
 import Foundation
+import UIKit
+
+enum DownloadState {
+    case new, download, failed
+}
 
 
 class MovieModel {
     let title: String
     let poster: URL
+    
+    var image: UIImage?
+    var state: DownloadState = .new
     
     init(title: String,poster: URL){
         self.title = title

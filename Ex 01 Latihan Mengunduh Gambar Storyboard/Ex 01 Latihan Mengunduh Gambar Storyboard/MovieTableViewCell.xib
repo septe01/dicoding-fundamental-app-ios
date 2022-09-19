@@ -16,8 +16,8 @@
                 <rect key="frame" x="0.0" y="0.0" width="325" height="118"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ugU-rL-kZO">
-                        <rect key="frame" x="116" y="47.5" width="41.5" height="21"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ugU-rL-kZO">
+                        <rect key="frame" x="116" y="48" width="41.5" height="20.5"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -46,6 +46,7 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
+                <outlet property="indicatorLoading" destination="48w-aM-qdK" id="xT7-kz-PuI"/>
                 <outlet property="movieImage" destination="fQC-f7-wFZ" id="0vx-Xb-gdF"/>
                 <outlet property="movieTitle" destination="ugU-rL-kZO" id="B7q-w2-eGD"/>
             </connections>

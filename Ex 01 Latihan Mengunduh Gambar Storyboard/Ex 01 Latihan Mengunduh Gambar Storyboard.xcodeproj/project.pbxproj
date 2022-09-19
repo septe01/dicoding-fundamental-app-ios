@@ -14,6 +14,7 @@
 		B3C0A05B28D7247A00B770A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C0A05A28D7247A00B770A6 /* Assets.xcassets */; };
 		B3C0A05E28D7247A00B770A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C0A05C28D7247A00B770A6 /* LaunchScreen.storyboard */; };
 		B3C0A06B28D72BCA00B770A6 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0A06A28D72BCA00B770A6 /* MovieModel.swift */; };
+		B3C82EF028D85356005959CE /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C82EEF28D85356005959CE /* ImageDownloader.swift */; };
 		B3FA012B28D7F320002793FD /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA012928D7F320002793FD /* MovieTableViewCell.swift */; };
 		B3FA012C28D7F320002793FD /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3FA012A28D7F320002793FD /* MovieTableViewCell.xib */; };
 /* End PBXBuildFile section */
@@ -28,6 +29,7 @@
 		B3C0A05D28D7247A00B770A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3C0A05F28D7247A00B770A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3C0A06A28D72BCA00B770A6 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MovieModel.swift; path = "Ex 01 Latihan Mengunduh Gambar Storyboard/MovieModel.swift"; sourceTree = SOURCE_ROOT; };
+		B3C82EEF28D85356005959CE /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Model/ImageDownloader.swift; sourceTree = "<group>"; };
 		B3FA012928D7F320002793FD /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 		B3FA012A28D7F320002793FD /* MovieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,6 +64,7 @@
 		B3C0A05028D7247900B770A6 /* Ex 01 Latihan Mengunduh Gambar Storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				B3C82EEF28D85356005959CE /* ImageDownloader.swift */,
 				B3C0A06928D72B9900B770A6 /* Model */,
 				B3C0A05128D7247900B770A6 /* AppDelegate.swift */,
 				B3C0A05328D7247900B770A6 /* SceneDelegate.swift */,
@@ -160,6 +163,7 @@
 				B3C0A05628D7247900B770A6 /* ViewController.swift in Sources */,
 				B3C0A05228D7247900B770A6 /* AppDelegate.swift in Sources */,
 				B3C0A06B28D72BCA00B770A6 /* MovieModel.swift in Sources */,
+				B3C82EF028D85356005959CE /* ImageDownloader.swift in Sources */,
 				B3C0A05428D7247900B770A6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
