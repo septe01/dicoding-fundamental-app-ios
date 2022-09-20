@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3159D7C28DA05DA005490CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3159D7B28DA05DA005490CE /* AppDelegate.swift */; };
+		B3159D7E28DA05DA005490CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3159D7D28DA05DA005490CE /* SceneDelegate.swift */; };
+		B3159D8028DA05DA005490CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3159D7F28DA05DA005490CE /* ViewController.swift */; };
+		B3159D8328DA05DA005490CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3159D8128DA05DA005490CE /* Main.storyboard */; };
+		B3159D8528DA05DA005490CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3159D8428DA05DA005490CE /* Assets.xcassets */; };
+		B3159D8828DA05DA005490CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3159D8628DA05DA005490CE /* LaunchScreen.storyboard */; };
+		B3159D9128DA0703005490CE /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3159D8F28DA0703005490CE /* MovieTableViewCell.swift */; };
+		B3159D9228DA0703005490CE /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3159D9028DA0703005490CE /* MovieTableViewCell.xib */; };
+		B3159D9528DA08DF005490CE /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3159D9428DA08DF005490CE /* Movie.swift */; };
+		B3159D9728DA0BD2005490CE /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3159D9628DA0BD2005490CE /* ImageDownloader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B3159D7828DA05DA005490CE /* Ex 02 Latihan Mengunduh Gambar Storyboard Async Await.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ex 02 Latihan Mengunduh Gambar Storyboard Async Await.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3159D7B28DA05DA005490CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3159D7D28DA05DA005490CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B3159D7F28DA05DA005490CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3159D8228DA05DA005490CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3159D8428DA05DA005490CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3159D8728DA05DA005490CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3159D8928DA05DA005490CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3159D8F28DA0703005490CE /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		B3159D9028DA0703005490CE /* MovieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
+		B3159D9428DA08DF005490CE /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		B3159D9628DA0BD2005490CE /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3159D7528DA05DA005490CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3159D6F28DA05DA005490CE = {
+			isa = PBXGroup;
+			children = (
+				B3159D7A28DA05DA005490CE /* Ex 02 Latihan Mengunduh Gambar Storyboard Async Await */,
+				B3159D7928DA05DA005490CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3159D7928DA05DA005490CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3159D7828DA05DA005490CE /* Ex 02 Latihan Mengunduh Gambar Storyboard Async Await.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3159D7A28DA05DA005490CE /* Ex 02 Latihan Mengunduh Gambar Storyboard Async Await */ = {
+			isa = PBXGroup;
+			children = (
+				B3159D9628DA0BD2005490CE /* ImageDownloader.swift */,
+				B3159D9328DA08C4005490CE /* Model */,
+				B3159D7B28DA05DA005490CE /* AppDelegate.swift */,
+				B3159D7D28DA05DA005490CE /* SceneDelegate.swift */,
+				B3159D7F28DA05DA005490CE /* ViewController.swift */,
+				B3159D8F28DA0703005490CE /* MovieTableViewCell.swift */,
+				B3159D8428DA05DA005490CE /* Assets.xcassets */,
+				B3159D9028DA0703005490CE /* MovieTableViewCell.xib */,
+				B3159D8128DA05DA005490CE /* Main.storyboard */,
+				B3159D8628DA05DA005490CE /* LaunchScreen.storyboard */,
+				B3159D8928DA05DA005490CE /* Info.plist */,
+			);
+			path = "Ex 02 Latihan Mengunduh Gambar Storyboard Async Await";
+			sourceTree = "<group>";
+		};
+		B3159D9328DA08C4005490CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B3159D9428DA08DF005490CE /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3159D7728DA05DA005490CE /* Ex 02 Latihan Mengunduh Gambar Storyboard Async Await */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3159D8C28DA05DA005490CE /* Build configuration list for PBXNativeTarget "Ex 02 Latihan Mengunduh Gambar Storyboard Async Await" */;
+			buildPhases = (
+				B3159D7428DA05DA005490CE /* Sources */,
+				B3159D7528DA05DA005490CE /* Frameworks */,
+				B3159D7628DA05DA005490CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ex 02 Latihan Mengunduh Gambar Storyboard Async Await";
+			productName = "Ex 02 Latihan Mengunduh Gambar Storyboard Async Await";
+			productReference = B3159D7828DA05DA005490CE /* Ex 02 Latihan Mengunduh Gambar Storyboard Async Await.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3159D7028DA05DA005490CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B3159D7728DA05DA005490CE = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B3159D7328DA05DA005490CE /* Build configuration list for PBXProject "Ex 02 Latihan Mengunduh Gambar Storyboard Async Await" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3159D6F28DA05DA005490CE;
+			productRefGroup = B3159D7928DA05DA005490CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3159D7728DA05DA005490CE /* Ex 02 Latihan Mengunduh Gambar Storyboard Async Await */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3159D7628DA05DA005490CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3159D8828DA05DA005490CE /* LaunchScreen.storyboard in Resources */,
+				B3159D8528DA05DA005490CE /* Assets.xcassets in Resources */,
+				B3159D9228DA0703005490CE /* MovieTableViewCell.xib in Resources */,
+				B3159D8328DA05DA005490CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3159D7428DA05DA005490CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3159D8028DA05DA005490CE /* ViewController.swift in Sources */,
+				B3159D7C28DA05DA005490CE /* AppDelegate.swift in Sources */,
+				B3159D9128DA0703005490CE /* MovieTableViewCell.swift in Sources */,
+				B3159D7E28DA05DA005490CE /* SceneDelegate.swift in Sources */,
+				B3159D9728DA0BD2005490CE /* ImageDownloader.swift in Sources */,
+				B3159D9528DA08DF005490CE /* Movie.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B3159D8128DA05DA005490CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3159D8228DA05DA005490CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3159D8628DA05DA005490CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3159D8728DA05DA005490CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3159D8A28DA05DA005490CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3159D8B28DA05DA005490CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3159D8D28DA05DA005490CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q36DPB2949;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ex 02 Latihan Mengunduh Gambar Storyboard Async Await/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.septehabudin.Ex-02-Latihan-Mengunduh-Gambar-Storyboard-Async-Await";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3159D8E28DA05DA005490CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q36DPB2949;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ex 02 Latihan Mengunduh Gambar Storyboard Async Await/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.septehabudin.Ex-02-Latihan-Mengunduh-Gambar-Storyboard-Async-Await";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3159D7328DA05DA005490CE /* Build configuration list for PBXProject "Ex 02 Latihan Mengunduh Gambar Storyboard Async Await" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3159D8A28DA05DA005490CE /* Debug */,
+				B3159D8B28DA05DA005490CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3159D8C28DA05DA005490CE /* Build configuration list for PBXNativeTarget "Ex 02 Latihan Mengunduh Gambar Storyboard Async Await" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3159D8D28DA05DA005490CE /* Debug */,
+				B3159D8E28DA05DA005490CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3159D7028DA05DA005490CE /* Project object */;
+}
