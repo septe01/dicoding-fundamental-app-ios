@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B3FE921B28DFB77C000A5E15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FE921A28DFB77C000A5E15 /* AppDelegate.swift */; };
-		B3FE921D28DFB77C000A5E15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FE921C28DFB77C000A5E15 /* SceneDelegate.swift */; };
 		B3FE921F28DFB77C000A5E15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FE921E28DFB77C000A5E15 /* ViewController.swift */; };
-		B3FE922228DFB77C000A5E15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FE922028DFB77C000A5E15 /* Main.storyboard */; };
 		B3FE922428DFB77C000A5E15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3FE922328DFB77C000A5E15 /* Assets.xcassets */; };
 		B3FE922728DFB77C000A5E15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FE922528DFB77C000A5E15 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,9 +16,7 @@
 /* Begin PBXFileReference section */
 		B3FE921728DFB77C000A5E15 /* Ex 11 Latihan Membagikan File Data.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ex 11 Latihan Membagikan File Data.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3FE921A28DFB77C000A5E15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B3FE921C28DFB77C000A5E15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B3FE921E28DFB77C000A5E15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B3FE922128DFB77C000A5E15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3FE922328DFB77C000A5E15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3FE922628DFB77C000A5E15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3FE922828DFB77C000A5E15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,9 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				B3FE921A28DFB77C000A5E15 /* AppDelegate.swift */,
-				B3FE921C28DFB77C000A5E15 /* SceneDelegate.swift */,
 				B3FE921E28DFB77C000A5E15 /* ViewController.swift */,
-				B3FE922028DFB77C000A5E15 /* Main.storyboard */,
 				B3FE922328DFB77C000A5E15 /* Assets.xcassets */,
 				B3FE922528DFB77C000A5E15 /* LaunchScreen.storyboard */,
 				B3FE922828DFB77C000A5E15 /* Info.plist */,
@@ -127,7 +121,6 @@
 			files = (
 				B3FE922728DFB77C000A5E15 /* LaunchScreen.storyboard in Resources */,
 				B3FE922428DFB77C000A5E15 /* Assets.xcassets in Resources */,
-				B3FE922228DFB77C000A5E15 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,21 +133,12 @@
 			files = (
 				B3FE921F28DFB77C000A5E15 /* ViewController.swift in Sources */,
 				B3FE921B28DFB77C000A5E15 /* AppDelegate.swift in Sources */,
-				B3FE921D28DFB77C000A5E15 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B3FE922028DFB77C000A5E15 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B3FE922128DFB77C000A5E15 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B3FE922528DFB77C000A5E15 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -290,9 +274,9 @@
 				DEVELOPMENT_TEAM = Q36DPB2949;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Ex 11 Latihan Membagikan File Data/Info.plist";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,9 +302,9 @@
 				DEVELOPMENT_TEAM = Q36DPB2949;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Ex 11 Latihan Membagikan File Data/Info.plist";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
