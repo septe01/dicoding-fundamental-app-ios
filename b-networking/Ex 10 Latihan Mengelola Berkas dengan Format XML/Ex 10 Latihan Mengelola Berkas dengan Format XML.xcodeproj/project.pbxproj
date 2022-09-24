@@ -65,15 +65,9 @@
 			isa = PBXGroup;
 			children = (
 				B31F6FDD28DE7EF300381226 /* NetworkSource */,
-				B31F6FC528DE7BBB00381226 /* AppDelegate.swift */,
-				B31F6FC728DE7BBB00381226 /* SceneDelegate.swift */,
-				B31F6FC928DE7BBB00381226 /* ViewController.swift */,
-				B31F6FCB28DE7BBB00381226 /* Main.storyboard */,
-				B31F6FD928DE7CFE00381226 /* MovieCell.swift */,
-				B31F6FDA28DE7CFE00381226 /* MovieCell.xib */,
-				B31F6FCE28DE7BBC00381226 /* Assets.xcassets */,
-				B31F6FD028DE7BBC00381226 /* LaunchScreen.storyboard */,
-				B31F6FD328DE7BBC00381226 /* Info.plist */,
+				B35BB53628DEE78B00952637 /* App */,
+				B35BB53828DEE7C000952637 /* View */,
+				B35BB53728DEE7A100952637 /* FileSystem */,
 			);
 			path = "Ex 10 Latihan Mengelola Berkas dengan Format XML";
 			sourceTree = "<group>";
@@ -85,6 +79,36 @@
 				B31F6FE028DE819300381226 /* ImageDownloader.swift */,
 			);
 			path = NetworkSource;
+			sourceTree = "<group>";
+		};
+		B35BB53628DEE78B00952637 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B31F6FC528DE7BBB00381226 /* AppDelegate.swift */,
+				B31F6FC728DE7BBB00381226 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B35BB53728DEE7A100952637 /* FileSystem */ = {
+			isa = PBXGroup;
+			children = (
+				B31F6FCE28DE7BBC00381226 /* Assets.xcassets */,
+				B31F6FD028DE7BBC00381226 /* LaunchScreen.storyboard */,
+				B31F6FD328DE7BBC00381226 /* Info.plist */,
+			);
+			path = FileSystem;
+			sourceTree = "<group>";
+		};
+		B35BB53828DEE7C000952637 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B31F6FC928DE7BBB00381226 /* ViewController.swift */,
+				B31F6FCB28DE7BBB00381226 /* Main.storyboard */,
+				B31F6FD928DE7CFE00381226 /* MovieCell.swift */,
+				B31F6FDA28DE7CFE00381226 /* MovieCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,7 +337,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q36DPB2949;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Ex 10 Latihan Mengelola Berkas dengan Format XML/Info.plist";
+				INFOPLIST_FILE = "Ex 10 Latihan Mengelola Berkas dengan Format XML/FileSystem/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -341,7 +365,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q36DPB2949;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Ex 10 Latihan Mengelola Berkas dengan Format XML/Info.plist";
+				INFOPLIST_FILE = "Ex 10 Latihan Mengelola Berkas dengan Format XML/FileSystem/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
