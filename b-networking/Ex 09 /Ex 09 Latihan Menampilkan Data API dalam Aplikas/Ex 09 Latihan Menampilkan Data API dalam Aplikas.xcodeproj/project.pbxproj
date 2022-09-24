@@ -17,6 +17,7 @@
 		B31F6FDC28DE7CFE00381226 /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B31F6FDA28DE7CFE00381226 /* MovieCell.xib */; };
 		B31F6FDF28DE7F2100381226 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31F6FDE28DE7F2100381226 /* MovieModel.swift */; };
 		B31F6FE128DE819300381226 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31F6FE028DE819300381226 /* ImageDownloader.swift */; };
+		B31F6FE628DEDED700381226 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31F6FE528DEDED700381226 /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		B31F6FDA28DE7CFE00381226 /* MovieCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieCell.xib; sourceTree = "<group>"; };
 		B31F6FDE28DE7F2100381226 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
 		B31F6FE028DE819300381226 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		B31F6FE528DEDED700381226 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,15 +67,9 @@
 			isa = PBXGroup;
 			children = (
 				B31F6FDD28DE7EF300381226 /* NetworkSource */,
-				B31F6FC528DE7BBB00381226 /* AppDelegate.swift */,
-				B31F6FC728DE7BBB00381226 /* SceneDelegate.swift */,
-				B31F6FC928DE7BBB00381226 /* ViewController.swift */,
-				B31F6FCB28DE7BBB00381226 /* Main.storyboard */,
-				B31F6FD928DE7CFE00381226 /* MovieCell.swift */,
-				B31F6FDA28DE7CFE00381226 /* MovieCell.xib */,
-				B31F6FCE28DE7BBC00381226 /* Assets.xcassets */,
-				B31F6FD028DE7BBC00381226 /* LaunchScreen.storyboard */,
-				B31F6FD328DE7BBC00381226 /* Info.plist */,
+				B31F6FE228DEDB7100381226 /* App */,
+				B31F6FE428DEDBD700381226 /* View */,
+				B31F6FE328DEDBA300381226 /* FileSystem */,
 			);
 			path = "Ex 09 Latihan Menampilkan Data API dalam Aplikas";
 			sourceTree = "<group>";
@@ -83,8 +79,39 @@
 			children = (
 				B31F6FDE28DE7F2100381226 /* MovieModel.swift */,
 				B31F6FE028DE819300381226 /* ImageDownloader.swift */,
+				B31F6FE528DEDED700381226 /* NetworkService.swift */,
 			);
 			path = NetworkSource;
+			sourceTree = "<group>";
+		};
+		B31F6FE228DEDB7100381226 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B31F6FC528DE7BBB00381226 /* AppDelegate.swift */,
+				B31F6FC728DE7BBB00381226 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B31F6FE328DEDBA300381226 /* FileSystem */ = {
+			isa = PBXGroup;
+			children = (
+				B31F6FCE28DE7BBC00381226 /* Assets.xcassets */,
+				B31F6FD028DE7BBC00381226 /* LaunchScreen.storyboard */,
+				B31F6FD328DE7BBC00381226 /* Info.plist */,
+			);
+			path = FileSystem;
+			sourceTree = "<group>";
+		};
+		B31F6FE428DEDBD700381226 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B31F6FC928DE7BBB00381226 /* ViewController.swift */,
+				B31F6FCB28DE7BBB00381226 /* Main.storyboard */,
+				B31F6FD928DE7CFE00381226 /* MovieCell.swift */,
+				B31F6FDA28DE7CFE00381226 /* MovieCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +192,7 @@
 				B31F6FDB28DE7CFE00381226 /* MovieCell.swift in Sources */,
 				B31F6FE128DE819300381226 /* ImageDownloader.swift in Sources */,
 				B31F6FC828DE7BBB00381226 /* SceneDelegate.swift in Sources */,
+				B31F6FE628DEDED700381226 /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +341,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q36DPB2949;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Ex 09 Latihan Menampilkan Data API dalam Aplikas/Info.plist";
+				INFOPLIST_FILE = "Ex 09 Latihan Menampilkan Data API dalam Aplikas/FileSystem/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -341,7 +369,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q36DPB2949;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Ex 09 Latihan Menampilkan Data API dalam Aplikas/Info.plist";
+				INFOPLIST_FILE = "Ex 09 Latihan Menampilkan Data API dalam Aplikas/FileSystem/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
