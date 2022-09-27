@@ -25,7 +25,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uff-S3-uC4">
                                 <rect key="frame" x="245" y="433" width="105" height="31"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="105" id="Gr5-Ti-p8h"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="105" id="Gr5-Ti-p8h"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Stop"/>
@@ -36,7 +36,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="blr-ul-4S7">
                                 <rect key="frame" x="66" y="433" width="105" height="31"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="105" id="r8D-Lm-glo"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="105" id="r8D-Lm-glo"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Play"/>
@@ -54,6 +54,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Hpu-DN-r1S" secondAttribute="trailing" constant="8" id="8DE-EC-q3D"/>
                             <constraint firstItem="blr-ul-4S7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="66" id="9xH-Pa-s7D"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uff-S3-uC4" secondAttribute="trailing" constant="64" id="Kqc-eM-u2O"/>
+                            <constraint firstItem="uff-S3-uC4" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="blr-ul-4S7" secondAttribute="trailing" constant="8" symbolic="YES" id="gT6-bX-Rct"/>
                             <constraint firstItem="Hpu-DN-r1S" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="msu-A6-MHa"/>
                         </constraints>
                     </view>
