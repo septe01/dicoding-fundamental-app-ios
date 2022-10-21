@@ -9,7 +9,7 @@ import Foundation
 
 class MovieViewModel {
 // MARK: Gunakan API Key dalam akun Anda.
-let apiKey = "API_KEY"
+let apiKey = "3e128906dc7b9f34448c28d8c2348c89"
 let language = "en-US"
 let page = "1"
 
